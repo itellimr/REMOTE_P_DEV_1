@@ -1,0 +1,12 @@
+PROCEDURE "P_DEV_1.db.Procs::SP_Table1"( )
+   LANGUAGE SQLSCRIPT
+   SQL SECURITY INVOKER
+   --DEFAULT SCHEMA <default_schema_name>
+   READS SQL DATA AS
+BEGIN
+  Select 
+	"T1_elem_1"
+	,"T1_elem_2"
+	,"T1_elem_3"
+	from "P_DEV_1.db.Tables::Table1";
+END
