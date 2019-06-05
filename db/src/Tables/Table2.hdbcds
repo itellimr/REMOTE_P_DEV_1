@@ -1,0 +1,7 @@
+namespace P_DEV_1.db.Tables;
+
+/*@@layout{"layoutInfo":{"x":-483,"y":-55.5}}*/
+entity Table2 {
+    T2_elem_1 : String(10);
+    T2_elem_2 : Integer;
+};
